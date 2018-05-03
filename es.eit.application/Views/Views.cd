@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="es.eit.application.Views.ComplexViews.By_Department_View&lt;T&gt;">
+    <Position X="1.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ComplexViews\By_Department_View.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="es.eit.application.Views.Department_View">
+    <Position X="2" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Department_View.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="es.eit.application.Views.ViewBase">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ViewBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="es.eit.application.Views.ComplexViews.Persons_By_Department_View">
+    <Position X="1" Y="6.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ComplexViews\Persons_By_Department_View.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="es.eit.application.Views.Person_View">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAEAAAAAAQAEAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Views\Person_View.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,29 @@
+﻿@model es.eit.application.Views.ComplexViews.Persons_By_Department_View
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Do you want to delete Department '@Model.Name' and related Persons?</h2>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor( model => model.Name )
+        </dt>
+
+        <dd>
+            @Html.DisplayFor( model => model.Name )
+        </dd>
+    </dl>
+
+    @using ( Html.BeginForm() )
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink( "Back to List", "Index" )
+        </div>
+    }
+</div>

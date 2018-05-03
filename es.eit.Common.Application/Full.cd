@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="es.eit.Common.Application.Validations.ViewValidatorBase&lt;T&gt;">
+    <Position X="8.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Validations\ViewValidatorBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="es.eit.Common.Application.Services.ServiceBase&lt;T&gt;">
+    <Position X="8.25" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAAADAACAAAAAAAAAAAgAAAAAAgAAAAAAAIgA=</HashCode>
+      <FileName>Services\ServiceBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="es.eit.Common.Infrastructure.Validations.ValidationException">
+    <Position X="10.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="es.eit.Common.Infrastructure.Validations.ValidatorBase&lt;T&gt;">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="es.eit.Common.Infrastructure.Validations.ValidatorBase&lt;T&gt;.Rule" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="es.eit.Common.Infrastructure.Model.EntityBase&lt;TId&gt;" Collapsed="true">
+    <Position X="10.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="es.eit.Common.Infrastructure.Model.ValidationRule" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="es.eit.Common.Application.Validations.IValidableFieldsBase&lt;T&gt;">
+    <Position X="6" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\IValidableFieldsBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="es.eit.Common.Application.Validations.IViewValidatorBase&lt;T&gt;">
+    <Position X="6" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\IViewValidatorBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="es.eit.Common.Application.Validations.IViewValidatorBase">
+    <Position X="3.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\IViewValidatorBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="es.eit.Common.Application.View.IViewBase">
+    <Position X="3.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\IViewBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="es.eit.Common.Infrastructure.Model.IEntityBase">
+    <Position X="3.25" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="es.eit.Common.Infrastructure.Model.IEntityBase&lt;T&gt;">
+    <Position X="6" Y="0.5" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="es.eit.Common.Application.View.IViewBase&lt;T&gt;">
+    <Position X="6" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\IViewBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="es.eit.Common.Application.Validations.IValidableFieldsBase">
+    <Position X="3.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validations\IValidableFieldsBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="es.eit.Common.Data.UnitsOfWork.GenericUnitOfWorkBase&lt;C, T&gt;">
+    <Position X="17.5" Y="7.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAAAQACAABAAAAAAAFAAAAAAAEAICAAAAAAAAAAA=</HashCode>
+      <FileName>UnitsOfWork\GenericUnitOfWorkBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="es.eit.Common.Data.Repositories.GenericRepositoryBase&lt;T&gt;">
+    <Position X="11" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAQAACIEAAAACAAQCAAAAAAAAAAEAgBBAACAIIA=</HashCode>
+      <FileName>Repositories\GenericRepositoryBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="es.eit.Common.Data.Repositories.Entity.GenericEntityRepository_RO&lt;T&gt;">
+    <Position X="9.25" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAgAABAAgAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Entity\GenericEntityRepository_RO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="es.eit.Common.Data.Repositories.Text.GenericTextRepository_RO&lt;T&gt;">
+    <Position X="12.75" Y="7" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQBAAAECAAAAAAAAAAAAQAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Text\GenericTextRepository_RO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="es.eit.Common.Data.UnitsOfWork.Entity.GenericEntityUnitOfWorkBase&lt;C, T&gt;">
+    <Position X="17.5" Y="5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>UnitsOfWork\Entity\GenericEntityUnitOfWorkBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="es.eit.Common.Data.Repositories.Entity.GenericEntityRepository_RW&lt;T&gt;">
+    <Position X="9.25" Y="10.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAYAAAAAAAAAAEAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Entity\GenericEntityRepository_RW.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="es.eit.Common.Data.Helpers.ReturnTypeVisitor&lt;TSource, TReturnValue&gt;">
+    <Position X="17.5" Y="2.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ReturnTypeVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="es.eit.Common.Model.Common.IGenericCUDOperations&lt;T&gt;">
+    <Position X="0.5" Y="7.5" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="es.eit.Common.Model.Context.IContextBase">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="es.eit.Common.Model.Repositories.IGenericRepositoryBase&lt;T&gt;">
+    <Position X="3.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="es.eit.Common.Model.UnitsOfWork.IGenericUnitOfWorkBase&lt;T&gt;">
+    <Position X="3.25" Y="9.75" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="es.eit.Common.Data.Context.IEntityContextBase">
+    <Position X="3.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Contexts\IEntityContextBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="es.eit.Common.Data.UnitsOfWork.IGenericUnitOfWork&lt;C, T&gt;">
+    <Position X="6" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\UnitsOfWork\IGenericUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="es.eit.Common.Model.Repositories.IGenericRepository_RO&lt;T&gt;" Collapsed="true" HideInheritanceLine="true">
+    <Position X="6" Y="7.5" Width="2.25" />
+    <InheritanceLine Type="es.eit.Common.Model.Repositories.IGenericRepositoryBase&lt;T&gt;" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="es.eit.Common.Model.Repositories.IGenericRepository_RW&lt;T&gt;" Collapsed="true">
+    <Position X="3.25" Y="7.5" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

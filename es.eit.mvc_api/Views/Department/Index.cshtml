@@ -1,0 +1,56 @@
+﻿@model IEnumerable<es.eit.application.Views.ComplexViews.Persons_By_Department_View>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Department List</h2>
+
+@if ( User.Identity.IsAuthenticated )
+{
+    if ( User.IsInRole( "Administrator" ) )
+    {
+        <p>
+            @Html.ActionLink( "Create New Department", "Create" )
+        </p>
+    }
+}
+
+<table class="table">
+    <tr>
+        <th>
+            <div>
+                <h3>
+                    Department Name
+                </h3>
+            </div>
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach ( var item in Model )
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor( modelItem => item.Name )
+            </td>
+            <td>
+                @if ( User.Identity.IsAuthenticated )
+                {
+                    if ( User.IsInRole( "Administrator" ) )
+                    {
+                        @Html.ActionLink( "Edit", "Edit", new { id = item.Id } ) @Html.Raw(" | ")
+                        @Html.ActionLink( "Delete", "Delete", new { id = item.Id } )
+                    } 
+                }
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="jumbotron">
+                @Html.Partial( "_Details", item )
+            </td>
+        </tr>
+        <tr><td></td></tr>
+    }
+</table>

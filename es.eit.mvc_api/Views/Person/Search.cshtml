@@ -1,0 +1,67 @@
+﻿@model IEnumerable<es.eit.application.Views.Person_View>
+
+@{
+    ViewBag.Title = "Search Persons";
+}
+
+<h2>Search</h2>
+
+@using ( Html.BeginForm( "Search", "Person", FormMethod.Get ) )
+{
+    @Html.TextBox( "search" ) <input type="submit" name="submit" value="Search" />
+    <br />
+}
+
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            Department Name
+        </th>
+        <th>
+            @Html.DisplayNameFor( model => model.Name )
+        </th>
+        <th>
+            @Html.DisplayNameFor( model => model.BirthDate )
+        </th>
+        <th>
+            @Html.DisplayNameFor( model => model.Salary )
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach ( var item in Model )
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor( modelItem => item.Department.Name )
+            </td>
+            <td>
+                @Html.DisplayFor( modelItem => item.Name )
+            </td>
+            <td>
+                @Html.DisplayFor( modelItem => item.BirthDate )
+            </td>
+            <td>
+                @Html.DisplayFor( modelItem => item.Salary )
+            </td>
+            <td>
+                @Html.ActionLink( "Details", "Details", new { id = item.Id } )
+                @if ( User.Identity.IsAuthenticated )
+                {
+                    if ( User.IsInRole( "Administrator" ) )
+                    {
+                        @Html.Raw( "| " ) @Html.ActionLink( "Edit", "Edit", new { id = item.Id } )
+                        @Html.Raw( " | " ) @Html.ActionLink( "Delete", "Delete", new { id = item.Id } )
+                    }
+                }
+            </td>
+        </tr>
+    }
+
+</table>
+
+<div>
+    @Html.ActionLink( "Go to Department List", "Index", "Department" )
+</div>

@@ -1,0 +1,31 @@
+Compilado:
+
+En Visual Studio se debe establecer como "Proyecto por defecto" el proyecto "es.eit.mvc_api"
+
+
+Datos de prueba:
+
+No se adjuntan scripts ya que las bases de datos se crean automáticamente y los datos iniciales son cargados desde la aplicación.
+
+Se crean dos bases de datos: EIT con los datos de la aplicación y EIT_Identity con los datos de seguridad.
+
+Se utiliza SqlLocalDB v11.0 para ambas conexiones
+
+
+Credenciales:
+
+usuario: consulta@eit.es
+contraseña: 1consulta@eit.es
+
+usuario: admin@eit.es
+contraseña: 1admin@eit.es
+
+
+
+
+
+Log:
+
+Se crea un log de prueba (solo se están incluyendo las consultas ejecutadas contra base de datos)
+
+
